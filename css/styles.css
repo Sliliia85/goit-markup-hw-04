@@ -371,9 +371,12 @@ transform: translateX(0);
         position: absolute;
         top: 0;
         left: 0;
-        transform: translateY(-100%);     
+        transform: translateY(-100%);   
+        background-color: #4d5ae5;  
+        transition-property: transform;
+        transform: translateY(-100%);
  }
- .overlay-text:hover {
+ .portofolio-card:hover .overlay-text {
 transform: translateY(0%);
 
  }
