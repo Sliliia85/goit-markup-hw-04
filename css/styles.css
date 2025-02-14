@@ -376,7 +376,7 @@ transform: translateX(0);
         transition-property: transform;
         transform: translateY(-100%);
  }
- .portofolio-card:hover .overlay-text {
+ .portofolio-card:hover .overlay-text:hover {
 transform: translateY(0%);
 
  }
