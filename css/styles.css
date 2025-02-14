@@ -485,5 +485,10 @@ max-width: 264px;
 .social-container {
 margin-left: 120px;
 }
-
+.container-footer {
+    display: flex;
+}
+.logo-box {
+    margin-right: 120px;
+}
 /*#endregion footer*/
