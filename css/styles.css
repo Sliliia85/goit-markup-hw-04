@@ -302,9 +302,7 @@ color: #2e2f42;
 font-weight: 700;
 }
 .header-icon {
-    width: 40px;
-    height: 40px;
-    fill: #f4f4fd;
+       fill: #f4f4fd;
 }
 .about-team {
     padding: 32px 0;
@@ -326,16 +324,12 @@ text-align: center;
     margin-top: 8px;
 }
 .social-team-card-icon {
-background-color: #4D5AE5;
 fill: #fff;
 width: 40px;
 height: 40px;
 
 }
-.social-team-card-icon:hover,
-.social-team-card-icon:focus {
-background-color: #31D0AA;
-}
+
 .team-info {
 background-color: #FFFFFF;
 align-items: center;
@@ -391,7 +385,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-transform: translateX(0);
+
 }
 
 .overlay-portofolio {
@@ -420,7 +414,7 @@ transform: translateX(0);
         background-color: #4d5ae5;  
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- .portofolio-card:hover .overlay-text {
+ .overlay-portofolio:hover .overlay-text {
 transform: translateY(0);
 
  }
@@ -506,7 +500,6 @@ max-width: 264px;
         margin-bottom: 16px;
 }
 .social-footer-icon {
-    background-color: #4D5AE5;
     fill: #FFFFFF;
     width: 40px;
     height: 40px;
@@ -517,7 +510,8 @@ max-width: 264px;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
